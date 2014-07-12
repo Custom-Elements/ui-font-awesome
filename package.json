@@ -1,0 +1,21 @@
+{
+  "name": "ui-font-awesome",
+  "version": "0.0.1",
+  "description": "FontAwesome packaged as custom elements",
+  "scripts": {
+    "prebublish": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Custom-Elements/ui-font-awesome.git"
+  },
+  "author": "Will Ballard <wballard@mailframe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Custom-Elements/ui-font-awesome/issues"
+  },
+  "homepage": "https://github.com/Custom-Elements/ui-font-awesome",
+  "dependencies": {
+    "font-awesome": "^4.1.0"
+  }
+}

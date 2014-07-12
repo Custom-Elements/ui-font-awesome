@@ -1,0 +1,19 @@
+#!/usr/bin/env awk -f
+BEGIN {
+	FS=":";
+	npm install --save ui-toolkit
+}
+{
+	if (match($1, "@fa-var")) {
+		printf("[%s]\n", substr($1, 9));
+		print "{";
+		print "  &:before {";
+		print "    font-family: FontAwesome;"
+		print "    content:", $2;
+		print "  }";
+		print "}";
+	}
+}
+END {
+
+}
