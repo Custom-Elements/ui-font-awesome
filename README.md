@@ -3,10 +3,10 @@ Working with Custom Elements, I got very tired of class and overloading
 `<div>`, `<span>`, and `<i>`. So, using HTML5, here are a set of elements.
 
 ```html
-<icon fa-bomb/> working <spinner fa-spin/>
+<icon bomb/> working <spinner spin/>
 <stack>
-  <icon fa-bomb/>
-  <icon fa-ban/>
+  <icon bomb/>
+  <icon ban/>
 </stack>
 ```
 
