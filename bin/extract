@@ -5,7 +5,7 @@ BEGIN {
 }
 {
 	if (match($1, "@fa-var")) {
-		printf("[%s]\n", substr($1, 9));
+		printf("[%s], [icon=\"%s\"]\n", substr($1, 9), substr($1, 9));
 		print "{";
 		print "  &:before {";
 		print "    font-family: FontAwesome;"
